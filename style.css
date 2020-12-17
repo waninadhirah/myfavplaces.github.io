@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+
+body
+{
+	background-image: url(penang2.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+ul
+{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li
+{
+	display: inline-block;
+}
+
+
+ul li a
+{
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	background-color: #fff;
+}
+
+ul li a:hover
+{
+	background-color: #80ced6;
+	color: #000;
+}
+
+ul li.active a
+{
+	background-color: green;
+	opacity: 0.6;
+	color: #000;
+}
+
+.main
+{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1
+{
+	color: #fff;
+	font-size: 50px;
+	font-family: "Courier New", monospace;
+}
+
+.button{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	}
+
+.btn{
+	border: 1px solid #fff;
+	padding:10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+
+.dropbtn {
+  background-color: #fff;
+  color: black;
+  padding: 6px 20px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f18973;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #80ced6;}
